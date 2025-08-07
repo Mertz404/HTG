@@ -47,5 +47,24 @@
             android:text="Don't have an account? Register"
             android:textColor="#0000EE"
             android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/debugError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:visibility="gone"
+            android:text=""
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/debugTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:textSize="14sp"
+            />
+
+
     </LinearLayout>
 </RelativeLayout>
