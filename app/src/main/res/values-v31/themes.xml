@@ -1,4 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
     <style name="Theme.HTG" parent="Base.Theme.HTG">
         <!-- Transparent system bars for edge-to-edge. -->
@@ -6,8 +7,10 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
         <item name="android:windowSplashScreenBackground">@android:color/white</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/htg_logo_foreground</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/htg_logo_foreground
+        </item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/white
+        </item>
 
     </style>
 </resources>
